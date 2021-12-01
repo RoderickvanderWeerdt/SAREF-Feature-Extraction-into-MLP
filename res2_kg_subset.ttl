@@ -1,0 +1,609 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+saref:Comfort a saref:Task ;
+    saref:isAccomplishedBy <https://interconnectproject.eu/example/DEKNres2_CP> .
+
+saref:MeterReading a saref:Task ;
+    saref:isAccomplishedBy <https://interconnectproject.eu/example/DEKNres2_GI> .
+
+saref:WellBeing a saref:Task ;
+    saref:isAccomplishedBy <https://interconnectproject.eu/example/DEKNres2_FR> .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T02%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T02:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 5.74294e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_CP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T03%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T03:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 5.74296e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_CP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T04%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T04:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 5.74296e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_CP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T05%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T05:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 5.74296e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_CP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T06%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T06:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 5.74296e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_CP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T07%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T07:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 5.74297e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_CP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T08%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T08:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 5.74297e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_CP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T09%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T09:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 5.74297e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_CP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T10%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T10:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 5.74297e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_CP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T11%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T11:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 5.74298e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_CP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T12%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T12:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 5.74298e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_CP> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T02%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T02:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 2.74137e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_DW> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T03%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T03:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 2.74137e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_DW> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T04%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T04:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 2.74138e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_DW> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T05%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T05:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 2.7474e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_DW> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T06%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T06:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 2.75386e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_DW> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T07%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T07:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 2.7539e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_DW> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T08%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T08:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 2.7539e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_DW> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T09%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T09:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 2.7539e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_DW> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T10%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T10:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 2.7539e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_DW> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T11%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T11:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 2.75391e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_DW> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T12%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T12:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 2.75391e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_DW> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T02%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T02:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259566e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_FR> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T03%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T03:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259598e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_FR> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T04%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T04:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259661e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_FR> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T05%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T05:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259722e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_FR> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T06%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T06:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259791e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_FR> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T07%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T07:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259831e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_FR> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T08%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T08:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259871e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_FR> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T09%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T09:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259913e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_FR> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T10%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T10:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259958e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_FR> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T11%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T11:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.260006e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_FR> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T12%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T12:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.260051e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_FR> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T02%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T02:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 3.09703e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_GI> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T03%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T03:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 3.09703e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_GI> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T04%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T04:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 3.09703e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_GI> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T05%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T05:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 3.09703e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_GI> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T06%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T06:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 3.09703e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_GI> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T07%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T07:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 3.09703e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_GI> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T08%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T08:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 3.09704e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_GI> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T09%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T09:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 3.09704e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_GI> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T10%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T10:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 3.09704e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_GI> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T11%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T11:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 3.09704e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_GI> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T12%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T12:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 3.09704e+02 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_GI> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T02%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T02:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259566e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T03%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T03:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259598e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T04%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T04:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259661e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T05%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T05:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259722e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T06%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T06:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259791e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T07%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T07:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259831e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T08%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T08:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259871e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T09%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T09:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259913e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T10%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T10:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.259958e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T11%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T11:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.260006e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:relatesToProperty saref:Power .
+
+<https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T12%3A00%3A00Z> a saref:Measurement ;
+    saref:hasTimestamp "2017-05-18T12:00:00+00:00"^^xsd:dateTime ;
+    saref:hasValue 1.260051e+03 ;
+    saref:isMeasuredIn <http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> ;
+    saref:isMeasurementOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> ;
+    saref:measurementMadeBy <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:relatesToProperty saref:Power .
+
+saref:Washing a saref:Task ;
+    saref:isAccomplishedBy <https://interconnectproject.eu/example/DEKNres2_DW>,
+        <https://interconnectproject.eu/example/DEKNres2_WM> .
+
+saref:MeteringFunction a saref:Function .
+
+<https://interconnectproject.eu/example/DEKNres2_CP> a saref:Device ;
+    saref:accomplishes saref:Comfort ;
+    saref:hasFunction saref:MeteringFunction ;
+    saref:makesMeasurement <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T02%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T03%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T04%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T05%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T06%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T07%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T08%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T09%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T10%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T11%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T12%3A00%3A00Z> ;
+    saref:measuresProperty saref:Power .
+
+<https://interconnectproject.eu/example/DEKNres2_DW> a saref:Appliance ;
+    saref:accomplishes saref:Washing ;
+    saref:hasFunction saref:MeteringFunction ;
+    saref:makesMeasurement <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T02%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T03%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T04%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T05%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T06%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T07%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T08%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T09%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T10%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T11%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T12%3A00%3A00Z> ;
+    saref:measuresProperty saref:Power .
+
+<https://interconnectproject.eu/example/DEKNres2_FR> a saref:Appliance ;
+    saref:accomplishes saref:WellBeing ;
+    saref:hasFunction saref:MeteringFunction ;
+    saref:makesMeasurement <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T02%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T03%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T04%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T05%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T06%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T07%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T08%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T09%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T10%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T11%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T12%3A00%3A00Z> ;
+    saref:measuresProperty saref:Power .
+
+<https://interconnectproject.eu/example/DEKNres2_GI> a saref:Meter ;
+    saref:accomplishes saref:MeterReading ;
+    saref:hasFunction saref:MeteringFunction ;
+    saref:makesMeasurement <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T02%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T03%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T04%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T05%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T06%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T07%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T08%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T09%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T10%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T11%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T12%3A00%3A00Z> ;
+    saref:measuresProperty saref:Power .
+
+<https://interconnectproject.eu/example/DEKNres2_WM> a saref:Appliance ;
+    saref:accomplishes saref:Washing ;
+    saref:hasFunction saref:MeteringFunction ;
+    saref:makesMeasurement <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T02%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T03%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T04%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T05%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T06%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T07%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T08%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T09%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T10%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T11%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T12%3A00%3A00Z> ;
+    saref:measuresProperty saref:Power .
+
+<http://www.wurvoc.org/vocabularies/om-1.8/kilowatt_hour> a saref:unitOfMeasurement .
+
+<https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> a saref:FeatureOfInterest ;
+    saref:hasMeasurement <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T02%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T03%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T04%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T05%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T06%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T07%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T08%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T09%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T10%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T11%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_CP_2017-05-18T12%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T02%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T03%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T04%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T05%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T06%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T07%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T08%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T09%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T10%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T11%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_DW_2017-05-18T12%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T02%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T03%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T04%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T05%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T06%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T07%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T08%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T09%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T10%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T11%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_FR_2017-05-18T12%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T02%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T03%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T04%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T05%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T06%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T07%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T08%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T09%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T10%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T11%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_GI_2017-05-18T12%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T02%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T03%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T04%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T05%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T06%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T07%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T08%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T09%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T10%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T11%3A00%3A00Z>,
+        <https://interconnectproject.eu/example/measurement_DEKNres2_WM_2017-05-18T12%3A00%3A00Z> ;
+    saref:hasProperty saref:Power .
+
+saref:Power a saref:Property ;
+    saref:isMeasuredByDevice <https://interconnectproject.eu/example/DEKNres2_CP>,
+        <https://interconnectproject.eu/example/DEKNres2_DW>,
+        <https://interconnectproject.eu/example/DEKNres2_FR>,
+        <https://interconnectproject.eu/example/DEKNres2_GI>,
+        <https://interconnectproject.eu/example/DEKNres2_WM> ;
+    saref:isPropertyOf <https://interconnectproject.eu/example/featureOfInterest_DE_KN_residential2> .
+
