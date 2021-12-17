@@ -1,0 +1,135 @@
+@prefix map: <http://mapping.example.com/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+
+<http://www.wurvoc.org/vocabularies/om-1.8/Degree_Celsius> a <https://saref.etsi.org/core/unitOfMeasurement> .
+
+<https://interconnectproject.eu/example/Konstanz_TempC> a <https://saref.etsi.org/core/Sensor>;
+  <https://saref.etsi.org/core/accomplishes> <https://saref.etsi.org/core/MeterReading>;
+  <https://saref.etsi.org/core/hasFunction> <https://saref.etsi.org/core/SensingFunction>;
+  <https://saref.etsi.org/core/makesMeasurement> <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T00%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T01%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T02%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T03%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T04%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T05%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T06%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T07%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T08%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T09%3A00%3A00>;
+  <https://saref.etsi.org/core/measuresProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://interconnectproject.eu/example/featureOfInterest_Konstanz> a <https://saref.etsi.org/core/FeatureOfInterest>;
+  <https://saref.etsi.org/core/hasMeasurement> <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T00%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T01%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T02%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T03%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T04%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T05%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T06%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T07%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T08%3A00%3A00>,
+    <https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T09%3A00%3A00>;
+  <https://saref.etsi.org/core/hasProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T00%3A00%3A00>
+  a <https://saref.etsi.org/core/Measurement>;
+  <https://saref.etsi.org/core/hasTimestamp> "2008-07-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://saref.etsi.org/core/hasValue> 1.4E1;
+  <https://saref.etsi.org/core/isMeasuredIn> <http://www.wurvoc.org/vocabularies/om-1.8/Degree_Celsius>;
+  <https://saref.etsi.org/core/isMeasurementOf> <https://interconnectproject.eu/example/featureOfInterest_Konstanz>;
+  <https://saref.etsi.org/core/measurementMadeBy> <https://interconnectproject.eu/example/Konstanz_TempC>;
+  <https://saref.etsi.org/core/relatesToProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T01%3A00%3A00>
+  a <https://saref.etsi.org/core/Measurement>;
+  <https://saref.etsi.org/core/hasTimestamp> "2008-07-01T01:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://saref.etsi.org/core/hasValue> 1.4E1;
+  <https://saref.etsi.org/core/isMeasuredIn> <http://www.wurvoc.org/vocabularies/om-1.8/Degree_Celsius>;
+  <https://saref.etsi.org/core/isMeasurementOf> <https://interconnectproject.eu/example/featureOfInterest_Konstanz>;
+  <https://saref.etsi.org/core/measurementMadeBy> <https://interconnectproject.eu/example/Konstanz_TempC>;
+  <https://saref.etsi.org/core/relatesToProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T02%3A00%3A00>
+  a <https://saref.etsi.org/core/Measurement>;
+  <https://saref.etsi.org/core/hasTimestamp> "2017-05-18T02:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://saref.etsi.org/core/hasValue> 1.4E1;
+  <https://saref.etsi.org/core/isMeasuredIn> <http://www.wurvoc.org/vocabularies/om-1.8/Degree_Celsius>;
+  <https://saref.etsi.org/core/isMeasurementOf> <https://interconnectproject.eu/example/featureOfInterest_Konstanz>;
+  <https://saref.etsi.org/core/measurementMadeBy> <https://interconnectproject.eu/example/Konstanz_TempC>;
+  <https://saref.etsi.org/core/relatesToProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T03%3A00%3A00>
+  a <https://saref.etsi.org/core/Measurement>;
+  <https://saref.etsi.org/core/hasTimestamp> "2017-05-18T03:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://saref.etsi.org/core/hasValue> 1.4E1;
+  <https://saref.etsi.org/core/isMeasuredIn> <http://www.wurvoc.org/vocabularies/om-1.8/Degree_Celsius>;
+  <https://saref.etsi.org/core/isMeasurementOf> <https://interconnectproject.eu/example/featureOfInterest_Konstanz>;
+  <https://saref.etsi.org/core/measurementMadeBy> <https://interconnectproject.eu/example/Konstanz_TempC>;
+  <https://saref.etsi.org/core/relatesToProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T04%3A00%3A00>
+  a <https://saref.etsi.org/core/Measurement>;
+  <https://saref.etsi.org/core/hasTimestamp> "2017-05-18T04:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://saref.etsi.org/core/hasValue> 1.5E1;
+  <https://saref.etsi.org/core/isMeasuredIn> <http://www.wurvoc.org/vocabularies/om-1.8/Degree_Celsius>;
+  <https://saref.etsi.org/core/isMeasurementOf> <https://interconnectproject.eu/example/featureOfInterest_Konstanz>;
+  <https://saref.etsi.org/core/measurementMadeBy> <https://interconnectproject.eu/example/Konstanz_TempC>;
+  <https://saref.etsi.org/core/relatesToProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T05%3A00%3A00>
+  a <https://saref.etsi.org/core/Measurement>;
+  <https://saref.etsi.org/core/hasTimestamp> "2017-05-18T05:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://saref.etsi.org/core/hasValue> 1.7E1;
+  <https://saref.etsi.org/core/isMeasuredIn> <http://www.wurvoc.org/vocabularies/om-1.8/Degree_Celsius>;
+  <https://saref.etsi.org/core/isMeasurementOf> <https://interconnectproject.eu/example/featureOfInterest_Konstanz>;
+  <https://saref.etsi.org/core/measurementMadeBy> <https://interconnectproject.eu/example/Konstanz_TempC>;
+  <https://saref.etsi.org/core/relatesToProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T06%3A00%3A00>
+  a <https://saref.etsi.org/core/Measurement>;
+  <https://saref.etsi.org/core/hasTimestamp> "2008-07-01T06:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://saref.etsi.org/core/hasValue> 1.8E1;
+  <https://saref.etsi.org/core/isMeasuredIn> <http://www.wurvoc.org/vocabularies/om-1.8/Degree_Celsius>;
+  <https://saref.etsi.org/core/isMeasurementOf> <https://interconnectproject.eu/example/featureOfInterest_Konstanz>;
+  <https://saref.etsi.org/core/measurementMadeBy> <https://interconnectproject.eu/example/Konstanz_TempC>;
+  <https://saref.etsi.org/core/relatesToProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T07%3A00%3A00>
+  a <https://saref.etsi.org/core/Measurement>;
+  <https://saref.etsi.org/core/hasTimestamp> "2008-07-01T07:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://saref.etsi.org/core/hasValue> 2.1E1;
+  <https://saref.etsi.org/core/isMeasuredIn> <http://www.wurvoc.org/vocabularies/om-1.8/Degree_Celsius>;
+  <https://saref.etsi.org/core/isMeasurementOf> <https://interconnectproject.eu/example/featureOfInterest_Konstanz>;
+  <https://saref.etsi.org/core/measurementMadeBy> <https://interconnectproject.eu/example/Konstanz_TempC>;
+  <https://saref.etsi.org/core/relatesToProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T08%3A00%3A00>
+  a <https://saref.etsi.org/core/Measurement>;
+  <https://saref.etsi.org/core/hasTimestamp> "2008-07-01T08:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://saref.etsi.org/core/hasValue> 2.3E1;
+  <https://saref.etsi.org/core/isMeasuredIn> <http://www.wurvoc.org/vocabularies/om-1.8/Degree_Celsius>;
+  <https://saref.etsi.org/core/isMeasurementOf> <https://interconnectproject.eu/example/featureOfInterest_Konstanz>;
+  <https://saref.etsi.org/core/measurementMadeBy> <https://interconnectproject.eu/example/Konstanz_TempC>;
+  <https://saref.etsi.org/core/relatesToProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://interconnectproject.eu/example/measurement_Konstanz_TempC_2008-07-01T09%3A00%3A00>
+  a <https://saref.etsi.org/core/Measurement>;
+  <https://saref.etsi.org/core/hasTimestamp> "2008-07-01T09:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+  <https://saref.etsi.org/core/hasValue> 2.5E1;
+  <https://saref.etsi.org/core/isMeasuredIn> <http://www.wurvoc.org/vocabularies/om-1.8/Degree_Celsius>;
+  <https://saref.etsi.org/core/isMeasurementOf> <https://interconnectproject.eu/example/featureOfInterest_Konstanz>;
+  <https://saref.etsi.org/core/measurementMadeBy> <https://interconnectproject.eu/example/Konstanz_TempC>;
+  <https://saref.etsi.org/core/relatesToProperty> <https://saref.etsi.org/core/Temperature> .
+
+<https://saref.etsi.org/core/MeterReading> a <https://saref.etsi.org/core/Task>;
+  <https://saref.etsi.org/core/isAccomplishedBy> <https://interconnectproject.eu/example/Konstanz_TempC> .
+
+<https://saref.etsi.org/core/SensingFunction> a <https://saref.etsi.org/core/Function> .
+
+<https://saref.etsi.org/core/Temperature> a <https://saref.etsi.org/core/Property>;
+  <https://saref.etsi.org/core/isMeasuredByDevice> <https://interconnectproject.eu/example/Konstanz_TempC>;
+  <https://saref.etsi.org/core/isPropertyOf> <https://interconnectproject.eu/example/featureOfInterest_Konstanz> .

@@ -29,10 +29,8 @@ class ToTensor(object):
         result = {}
         for feature in sample.keys():
             if feature == "timestamp":
-                ts = sample[feature][0]
-                # print(ts[2:6]+ts[7:9]+ts[10:12]+'.'+ts[13:15]+ts[16:18]+ts[19:21])
-                ts = ts[2:6]+ts[7:9]+ts[10:12]+'.'+ts[13:15]+ts[16:18]+ts[19:21] #TRY UNIX TIME, OR SPLIT INTO YEAR/MONTH/...
-                sample[feature] = np.array([float(ts)])
+                # skip the timestamp, because it is now present as buckets
+                continue
             result[feature] = torch.from_numpy(sample[feature])
         return result
 
